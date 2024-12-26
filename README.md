@@ -34,7 +34,7 @@ This project has been instrumental in developing skills in various areas of web 
 
 1) Clone the repository.
 ```
-git clone https://github.com/itznasrullah/Stock-Images.git
+git clone https://github.com/MikeMopo/afreation-stock.git
 ```
 
 2) Install dependencies.
@@ -51,8 +51,3 @@ Open your browser and navigate to http://localhost:3000 to start exploring the s
 
 Contributions are welcome! If you have ideas for new features, bug fixes, or improvements, feel free to open an issue or submit a pull request.
 
-## Demo
-Check out our live demo
-[https://itznasrullah.github.io/Stock-Images](https://itznasrullah.github.io/Stock-Images)
-
-Thank you for exploring our Stock Image Website project. We hope you enjoy the extensive collection of stock images and have a delightful user experience! If you have any questions or feedback, feel free to reach out.
