@@ -1,0 +1,95 @@
+.HomePage .hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../assets/bg-hero.jpeg") no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+
+.HomePage .hero-section .hero-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7.5rem 5%;
+}
+
+.HomePage .hero-banner .login-title {
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 2rem;
+}
+
+.HomePage .hero-banner .search-form {
+    display: flex;
+    height: 3.2rem; /* Adjusted for a modern, rounded look */
+    width: 60%;
+    border-radius: 2rem; /* Makes the container rounded */
+    overflow: hidden; /* Ensures elements stay inside the rounded edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+    border: 1px solid #ddd; /* Optional border for clean design */
+}
+
+.HomePage .hero-banner .search-form .search-btn {
+    background-color: #fff;
+    color: #333;
+    height: 100%;
+    max-width: 2rem; /* Adjusted to balance with rounded design */
+    padding-left: 1rem;
+    border-radius: 2rem 0 0 2rem; /* Matches container's roundness */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; /* Adds interactivity */
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.HomePage .hero-banner .search-form .search-btn:hover {
+    background-color: #f0f0f0;
+    color: #333; /* Hover effect for better interactivity */
+}
+
+.HomePage .hero-banner .search-form input {
+    flex-grow: 1;
+    height: 100%;
+    border: none;
+    padding: 0 1rem;
+    outline: none;
+    font-size: 1rem; /* Modern font size */
+}
+
+.HomePage .hero-banner .search-form select {
+    height: 100%;
+    border: none;
+    border-radius: 0 2rem 2rem 0; /* Matches container's roundness */
+    outline: none;
+    background-color: #fff;
+    padding: 0 1rem;
+    font-size: 1rem; /* Matches input font size */
+}
+
+/* Optional: Make the login title responsive */
+@media (max-width: 768px) {
+    .HomePage .hero-banner .login-title {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .HomePage .hero-banner .search-form {
+        width: 80%; /* Make search bar more responsive */
+    }
+}
+
+/* Optional: Add animation when the search bar loads */
+.HomePage .hero-banner .search-form {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

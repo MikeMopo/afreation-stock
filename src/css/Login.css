@@ -1,0 +1,67 @@
+/* Remove the background from body */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.login__background { /* New class for the login background */
+    background-color: #ffffff;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin__wrapper {
+    background: rgba(255, 255, 255, 0.2); /* Slightly more opaque for a warm feel */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3); /* Softer shadow for a warm effect */
+}
+
+.signin__content {
+    text-align: center;
+}
+
+.form__input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.9); /* Brighter for better contrast */
+    color: #333;
+}
+
+.cmn--btn {
+    background-color: #ffffff; /* Lighter gradient color */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cmn--btn:hover {
+    background-color: #ff7e5f; /* Darker shade on hover */
+}
+
+.google__box, .white__btn {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    background: white;
+}
+
+.google__box img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.signcreat {
+    margin-top: 20px;
+}
