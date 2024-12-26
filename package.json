@@ -1,7 +1,7 @@
 {
   "name": "stock-images",
   "version": "0.1.0",
-  "homepage": "https://itznasrullah.github.io/Stock-Images",
+  "homepage": "https://mikemopo.github.io/afreation-stock/",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.1",
