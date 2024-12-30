@@ -26,28 +26,28 @@ const SliderTab = () => {
                 </svg>
             </div>
             <ul ref={ref} onScroll={() => scrollBtnToggle()}>
-                <li> <Link to='/api/search?query=nature'>nature</Link> </li>
-                <li> <Link to='/api/search?query=wallpaper'>wallpaper</Link> </li>
-                <li> <Link to='/api/search?query=background'>background</Link> </li>
-                <li> <Link to='/api/search?query=sky'>sky</Link> </li>
-                <li> <Link to='/api/search?query=cat'>cat</Link> </li>
-                <li> <Link to='/api/search?query=food'>food</Link> </li>
-                <li> <Link to='/api/search?query=christmas'>christmas</Link> </li>
-                <li> <Link to='/api/search?query=forest'>forest</Link> </li>
-                <li> <Link to='/api/search?query=flowers'>flowers</Link> </li>
-                <li> <Link to='/api/search?query=love'>love</Link> </li>
-                <li> <Link to='/api/search?query=space'>space</Link> </li>
-                <li> <Link to='/api/search?query=spring'>spring</Link> </li>
-                <li> <Link to='/api/search?query=summer'>summer</Link> </li>
-                <li> <Link to='/api/search?query=beauty'>beauty</Link> </li>
-                <li> <Link to='/api/search?query=travel'>travel</Link> </li>
-                <li> <Link to='/api/search?query=river'>river</Link> </li>
-                <li> <Link to='/api/search?query=water'>water</Link> </li>
-                <li> <Link to='/api/search?query=blur'>blur</Link> </li>
-                <li> <Link to='/api/search?query=nature photography'>nature photography</Link> </li>
-                <li> <Link to='/api/search?query=outdoors'>outdoors</Link> </li>
-                <li> <Link to='/api/search?query=tree'>tree</Link> </li>
-                <li> <Link to='/api/search?query=road'>road</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=nature'>nature</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=wallpaper'>wallpaper</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=background'>background</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=sky'>sky</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=cat'>cat</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=food'>food</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=christmas'>christmas</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=forest'>forest</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=flowers'>flowers</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=love'>love</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=space'>space</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=spring'>spring</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=summer'>summer</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=beauty'>beauty</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=travel'>travel</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=river'>river</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=water'>water</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=blur'>blur</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=nature photography'>nature photography</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=outdoors'>outdoors</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=tree'>tree</Link> </li>
+                <li> <Link to='/Stock-Images/search?query=road'>road</Link> </li>
             </ul>
             <div className={`arrow right-arrow ${rightScroll ? 'active': ""}`} onClick={() => scroll(200)}>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">

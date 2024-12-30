@@ -21,7 +21,7 @@ const PaginatedImageGallery = ({ query }) => {
             const incomingData = await StockApi(query, page);
             if (incomingData && incomingData.hits) {
                 setImages(prevImages => [...prevImages, ...incomingData.hits]);
-                setTotalPages(Math.ceil(incomingData.totalHits / 20)); // Assuming 20 items per page
+                setTotalPages(Math.ceil(incomingData.totalHits / 60)); // Assuming 20 items per page
             }
         } catch (err) {
             console.error("Error fetching images:", err);

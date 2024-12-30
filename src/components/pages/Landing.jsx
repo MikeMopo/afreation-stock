@@ -4,7 +4,8 @@ import ImageGallery from "../ImageGallery";
 import SliderTab from "../SliderTab";
 import { useState } from 'react';
 import { Link } from "react-router-dom";
-import Footer from "../Footer";
+import Footer from '../auth/Footer';
+import PaginatedImageGallery from '../PaginatedImageGallery';
 
 const Landing = () => {
   const [SearchQuery, setSearchQuery] = useState('');
@@ -14,7 +15,7 @@ const Landing = () => {
         <div className="hero-section">
           <Navbar defaultQuery='' />
           <div className='hero-banner'>
-            <h2 className='title'>Unleash Creativity, Share Moments.</h2>
+            <h2 >Unleash Creativity, Share Moments.</h2>
             <form className="search-form" action={SearchQuery ? `/search?query=${SearchQuery}` : "#"} method='get' >
               <Link to={SearchQuery ? `/Stock-Images/search?query=${SearchQuery}` : "#"}>
                 <svg className='search-btn' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 30 30">
@@ -33,7 +34,7 @@ const Landing = () => {
         </div>
         <div className='container'>
           <SliderTab />
-          <ImageGallery query="nature" />
+          <PaginatedImageGallery query="nature" />
         </div>
         <Footer />
       </div>
