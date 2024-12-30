@@ -3,7 +3,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import ImageElement from "./ImageElement";
 import StockApi from "../Api/StockApi";
 import Loading from "../assets/Loading.gif";
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+// import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 const PaginatedImageGallery = ({ query }) => {
     const ref = useRef(null);

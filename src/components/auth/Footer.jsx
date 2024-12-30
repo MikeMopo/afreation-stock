@@ -24,22 +24,22 @@ const Footer = () => {
                             </div>
                             <ul className="footer-social d-flex align-items-center">
                                 <li>
-                                    <a href="javascript:void(0)">
+                                    <a href="www.facebook.com">
                                         <i className="fab fa-facebook"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)">
+                                    <a href="www.twitter.com">
                                         <i className="fab fa-twitter"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)">
+                                    <a href="www.linkedin.com">
                                         <i className="fab fa-linkedin"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:void(0)">
+                                    <a href="www.pinterest.com">
                                         <i className="fab fa-pinterest"></i>
                                     </a>
                                 </li>
@@ -110,17 +110,17 @@ const Footer = () => {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" className="fz-16 fw-400 bodyfont ftext d-block">
+                                        <a href="about.html" className="fz-16 fw-400 bodyfont ftext d-block">
                                             Careers
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)" className="fz-16 fw-400 bodyfont ftext d-block">
+                                        <a href="about.html" className="fz-16 fw-400 bodyfont ftext d-block">
                                             Privacy Policy
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0)" className="fz-16 fw-400 bodyfont ftext d-block">
+                                        <a href="about.html" className="fz-16 fw-400 bodyfont ftext d-block">
                                             Sitemap
                                         </a>
                                     </li>
