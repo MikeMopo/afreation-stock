@@ -1,7 +1,7 @@
 import React from "react";
 import "../../assets/assets/css/main.css";
 import "../../assets/assets/css/bootstrap.min.css";
-import ScriptLoader from "../util/ScriptLoader";
+// import ScriptLoader from "../util/ScriptLoader";
 const Footer = () => {
     return (
         <footer className="footer__section ralt overhid">

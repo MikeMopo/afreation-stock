@@ -16,7 +16,7 @@ const Header = () => {
                     <div className="menu__components d-flex align-content-center">
                         <ul className="main-menu">
                             <li>
-                                <a href="#" className="fz-24">
+                                <a href="/Stock-Images" className="fz-24">
                                     Home
                                     <i className="fas fa-chevron-down"></i>
                                 </a>
@@ -32,7 +32,7 @@ const Header = () => {
                             </li>
                             <li><a href="/about.html">About Us</a></li>
                             <li>
-                                <a href="#">
+                                <a href="/Stock-Images">
                                     Category
                                     <i className="fas fa-chevron-down"></i>
                                 </a>
@@ -42,7 +42,7 @@ const Header = () => {
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="/Stock-Images">
                                     Pages
                                     <i className="fas fa-chevron-down"></i>
                                 </a>

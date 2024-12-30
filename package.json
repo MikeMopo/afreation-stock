@@ -38,8 +38,8 @@
     "build:docs": "npm run build && rmdir /s /q docs && move build docs",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "CI=false react-scripts build",
+    "start": "GENERATE_SOURCEMAP=false react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

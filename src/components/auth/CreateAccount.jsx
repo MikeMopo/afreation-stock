@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-import ScriptLoader from "../util/ScriptLoader";
+// import ScriptLoader from "../util/ScriptLoader";
 
 const CreateAccount = () => {
   return (
