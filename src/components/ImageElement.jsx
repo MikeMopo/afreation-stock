@@ -1,13 +1,14 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import '../css/ImageElement.css';
 
 const ImageElement = (props) => {
     const [liked, setLiked] = useState(false);
-    const [isLoadedImage, setIsLoadedImage] = useState(false);
+    const [isLoadImage, setIsLoadedImage] = useState(false);
 
     useEffect(() => {
-      setIsLoadedImage(true);
+      if(isLoadImage===false)
+        setIsLoadedImage(true);
     }, [])
 
     const download = (src) => {

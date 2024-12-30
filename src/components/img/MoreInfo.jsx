@@ -5,7 +5,9 @@ import { BsX } from 'react-icons/bs';
 
 
 const MoreInfo = ({isOpen, image, closeModal, stats}) => {
-    const {urls, links, user, id, color, likes, description, created_at, updated_at, width, height} = image;
+    const {urls, 
+        // links, user,description, updated_at,
+        id, color, likes,  created_at,  width, height} = image;
 
 
     const truncateDate = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsGrid1X2Fill, BsFillArchiveFill, BsPeopleFill, BsPower, BsImage, BsCurrencyDollar, BsGear } from 'react-icons/bs';
+import { BsGrid1X2Fill,  BsPower, BsImage, BsCurrencyDollar, BsGear } from 'react-icons/bs';
 import { Link } from "react-router-dom";
 import '../css/Dashboard.css';
 

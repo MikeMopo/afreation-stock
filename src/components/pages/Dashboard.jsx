@@ -1,6 +1,6 @@
 import React from 'react';
 import SideBar from '../SideBar';
-import HomeNavbar from '../HomeNavBar';
+// import HomeNavbar from '../HomeNavBar';
 import PaginatedImageGallery from '../PaginatedImageGallery';
 import {BsJustify} from "react-icons/bs";
 

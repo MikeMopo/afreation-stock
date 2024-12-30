@@ -1,9 +1,9 @@
 import React, { useState, Fragment } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 
-import { toast } from 'react-hot-toast';
-import { BiArrowBack, BiChevronDown, BiBookmark, BiHeart } from 'react-icons/bi';
-import { BsCheck2, BsFillInfoCircleFill } from 'react-icons/bs';
+// import { toast } from 'react-hot-toast';
+import { BiArrowBack, BiBookmark, BiHeart } from 'react-icons/bi';
+import {  BsFillInfoCircleFill } from 'react-icons/bs';
 import { AiOutlineLoading3Quarters } from 'react-icons/ai';
 import { RiShareBoxFill } from 'react-icons/ri';
 import SaveCollection from '../SaveCollection';
@@ -11,32 +11,40 @@ import MoreInfo from './MoreInfo';
 import '../../css/ImageDialog.css';
 
 const ImageDialog = ({ isOpen, closeModal, images }) => {
-    const [downloadToggle, setDownloadToggle] = useState(false);
-    const [active, setActive] = useState('original');
-    const [moreInfoModal, setMoreInfoModal] = useState(false);
-    const [collectionModal, setCollectionModal] = useState(false);
-    const [isFetchingCollections, setIsFetchingCollections] = useState(false);
-    const [collections, setCollections] = useState([]);
-    const [submitting, setIsSubmitting] = useState(false);
+    // const [downloadToggle, setDownloadToggle] = useState(false);
+    // const [active, setActive] = useState('original');
+     const [moreInfoModal
+        // , setMoreInfoModal
+    ] = useState(false);
+     const [collectionModal
+        // , setCollectionModal
+    ] = useState(false);
+    // const [isFetchingCollections, setIsFetchingCollections] = useState(false);
+     const [collections
+        // , setCollections
+    ] = useState([]);
+     const [submitting
+        // , setIsSubmitting
+    ] = useState(false);
 
-    const handleDownloadImage = async (imageUrl, suggestedFileName) => {
-        try {
-            const response = await fetch(imageUrl);
-            if (!response.ok) throw new Error('Image download failed');
+    // const handleDownloadImage = async (imageUrl, suggestedFileName) => {
+    //     try {
+    //         const response = await fetch(imageUrl);
+    //         if (!response.ok) throw new Error('Image download failed');
 
-            const blob = await response.blob();
-            const url = window.URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = suggestedFileName;
-            document.body.appendChild(a);
-            a.click();
-            window.URL.revokeObjectURL(url);
-            toast.success('Your download has started.');
-        } catch {
-            toast.error('Failed to download image, please try again.');
-        }
-    };
+    //         const blob = await response.blob();
+    //         const url = window.URL.createObjectURL(blob);
+    //         const a = document.createElement('a');
+    //         a.href = url;
+    //         a.download = suggestedFileName;
+    //         document.body.appendChild(a);
+    //         a.click();
+    //         window.URL.revokeObjectURL(url);
+    //         toast.success('Your download has started.');
+    //     } catch {
+    //         toast.error('Failed to download image, please try again.');
+    //     }
+    // };
 
     return (
         <Transition show={isOpen} as={Fragment}>

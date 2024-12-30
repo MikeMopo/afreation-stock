@@ -12,7 +12,7 @@ const PaginatedImageGallery = ({ query }) => {
     const [page, setPage] = useState(1);
     const [totalPages, setTotalPages] = useState(1);
     const [columns, setColumns] = useState([]);
-    const navigate = useNavigate(); // Initialize useNavigate
+    // const navigate = useNavigate(); // Initialize useNavigate
 
     // Fetch images from the API
     const fetchImages = useCallback(async (query, page) => {

@@ -9,7 +9,7 @@ import CreateAccount from "./components/auth/CreateAccount";
 import { BrowserRouter as Router, Route, Navigate, Routes } from 'react-router-dom';
 import Signup from "./components/auth/SignUp";
 import Dashboard from "./components/pages/Dashboard";
-import Navigation from "./Api/Navigation";
+// import Navigation from "./Api/Navigation";
 
 function App() {
   return (
