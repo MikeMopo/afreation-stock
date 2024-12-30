@@ -1,7 +1,7 @@
 {
   "name": "stock-images",
   "version": "0.1.0",
-  "homepage": "https://mikemopo.github.io/afreation-stock/",
+  "homepage": "/Stock-Images",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.1",
@@ -31,6 +31,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "build:docs": "npm run build && rmdir /s /q docs && move build docs",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",

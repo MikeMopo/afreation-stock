@@ -6,7 +6,7 @@ import Login from "./components/auth/Login";
 import CreateAccount from "./components/auth/CreateAccount";
 
 // import Footer from "./components/Footer";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Navigate, Routes } from 'react-router-dom';
 import Signup from "./components/auth/SignUp";
 import Dashboard from "./components/pages/Dashboard";
 import Navigation from "./Api/Navigation";
@@ -17,6 +17,7 @@ function App() {
       {/*<Navigation />*/}
       <Router>
         <Routes>
+        <Route path="/" element={<Navigate to="/Stock-Images" />} />
           <Route exact path="/Stock-Images" element={<Landing/>} />
           <Route path="/Stock-Images/view" element={<ViewImage/>} />
           <Route path="/Stock-Images/search" element={<SearchResults />} />
