@@ -36,7 +36,7 @@
   },
   "scripts": {
     "build:docs": "npm run build && rmdir /s /q docs && move build docs",
-    "predeploy": "npm run build",
+    "predeploy": "set CI=false && npm run build",
     "deploy": "gh-pages -d build",
     "start": "GENERATE_SOURCEMAP=false react-scripts start",
     "build": "react-scripts build",
